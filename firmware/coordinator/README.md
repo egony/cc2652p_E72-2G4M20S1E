@@ -16,11 +16,13 @@ Changes according E72-2G4M20S1E datasheet:
 - SET_CCFG_MODE_CONF_XOSC_CAPARRAY_DELTA set to 0xFA (from E79-900DM2005S datasheet, without it oscilator settings not related to hardware)
 
 Default TX power: 20dBm.
-- Available values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1-5, 14-20
-- Can be changed in config zigbee2mqtt:
+
+Can be adjusted in config zigbee2mqtt:
 
     experimental:
       transmit_power: 5
+
+Available values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1-5, 14-20
 
 LEDs description:
 - LED4 (Red) turns ON when High-power PA is not used (from -20 to 5 dBm)
