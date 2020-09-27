@@ -4,6 +4,8 @@
 
 ## Firmware description:
 
+[Koenkk](https://github.com/Koenkk) patches for Z-Stack_3.x.0.
+
 SDK 4.20.01.04
 
 Built for CC2652P1F chip variant (not for CC1352P1F).
