@@ -1,5 +1,6 @@
-# Zigbee Coordinator Firmware for Ebyte E72-2G4M20S1E module (cc2652p chip)
+# !!!UNDER CONSTRUCTION!!!
 
+# Zigbee Coordinator Firmware for Ebyte E72-2G4M20S1E module (cc2652p chip)
 
 ## Firmware description:
 
