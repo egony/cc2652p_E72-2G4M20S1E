@@ -33,4 +33,8 @@ Buttons description:
 - Button 2 (BTN2, Flash) - used for bootloader activation (for firmware update)
 - Reset button - you guess what it do.
 
+NOTES:
+
+[Behavior needs to be explored] DO NOT TRY to directly replace cc2538 (v3) stick to cc2652p - coordinator backup from 2538 hangs 2562 until 2652 powered off. Moreover - later you need to kill all contents of zigbee2mqtt/data except configuration.yaml for recover 2652 stick (or just flash it again with full erase entry chip).
+
 As I know, sharing source codes prohibited by TI, so there is no sources here. And I can't made patches because they will include code. But you now what to do ;) 
