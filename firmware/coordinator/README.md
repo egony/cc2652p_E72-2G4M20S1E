@@ -35,6 +35,8 @@ Buttons description:
 
 NOTES:
 
-[Behavior needs to be explored] DO NOT TRY to directly replace cc2538 (v3) stick to cc2652p - coordinator backup from 2538 hangs 2562 until 2652 powered off. Moreover - later you need to kill all contents of zigbee2mqtt/data except configuration.yaml for recover 2652 stick (or just flash it again with full erase entry chip). I do not know why backup from one stack (3.0.x) can't be aplied to stick with another stack (3.x.0).
+Coordinator backup from 2538 can be loaded into 2652, but with two conditions:
+- on 2020-11-01 only dev branch zigbee2mqtt can do it right
+- backup can be loaded into CLEAN (never used with zigbee2mqtt) 2652 only.
 
 As I know, sharing source codes prohibited by TI, so there is no sources here. And I can't made patches because they will include code. But you now what to do ;) 
