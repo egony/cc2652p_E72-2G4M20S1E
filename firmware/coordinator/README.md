@@ -39,4 +39,6 @@ Coordinator backup from 2538 can be loaded into 2652, but with two conditions:
 - on 2020-11-01 only dev branch zigbee2mqtt can do it right
 - backup can be loaded into CLEAN (never used with zigbee2mqtt) 2652 only.
 
+FIRMWARE SOURCES:
+
 As I know, sharing source codes prohibited by TI, so there is no sources here. And I can't made patches because they will include code. But you now what to do ;) 
