@@ -25,11 +25,11 @@ Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..5, 14.
 LEDs description:
 - LED4 (Green) turns ON when High-power PA is not used (TX power from -20 to 5 dBm)
 - LED3 (Red) turns ON when High-power PA is used (TX power from 15 to 20 dBm)
-- LED1,2 supported in source code, but currently not used.
+- LED1,2 supported in source code, but currently not used and perhaps never will be used.
 - Leds can't be turned OFF by zigbee2mqtt config - sorry, I haven't skills for it.
 
 Buttons description:
-- Button 1 (BTN1) supported in source code, but not currently used
+- Button 1 (BTN1) supported in source code, but not currently used and perhaps never will be used.
 - Button 2 (BTN2, Flash) - used for bootloader activation (for firmware update)
 - Reset button - you guess what it do.
 
