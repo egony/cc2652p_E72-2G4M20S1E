@@ -4,7 +4,7 @@
 
 Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) patches for Z-Stack_3.x.0.
 
-SDK 4.20.01.04
+SDK 4.40.00.44
 
 Changes according E72-2G4M20S1E datasheet:
 - DIO5 and DIO6 controls RF switch
