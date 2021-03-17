@@ -26,7 +26,12 @@ LEDs description (latest firmware):
 - When stick restarted - both double blinking
 - LEDs on DIO9 and DIO10 also supported in source code, but currently not used and perhaps never will be.
 
-Leds CAN NOT be turned OFF by zigbee2mqtt config - sorry, I still haven't skills for it.
+Leds can be turned OFF by zigbee2mqtt config, but on March 2021 you need to modify file zStackAdapter.js:
+
+    supportsLED() {
+        return __awaiter(this, void 0, void 0, function* () {
+          return true; //this.version.product !== tstype_1.ZnpVersion.zStack3x0; // <---- change like this
+        });
 
 Buttons description:
 - Button 1 (BTN1) on DIO14 supported in source code, but currently not used and perhaps never will be.
