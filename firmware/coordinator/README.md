@@ -50,7 +50,7 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 
 ---
 
-## Changelog:
+## Changelog
 
 ### 2021-03-19
 
