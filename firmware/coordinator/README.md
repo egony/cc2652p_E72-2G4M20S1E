@@ -46,3 +46,26 @@ You can clear chip with zigbee2mqtt script scripts\zStackEraseAllNvMem.js
 FIRMWARE SOURCES:
 
 As I know, sharing source codes prohibited by TI, so there is no sources here. And I can't made patches because they will include code. But you now what to do ;)
+
+## Changelog:
+
+### 2021-03-19
+
+- LEDs now shows some events - reboot, network startup, join, data recieved
+- LEDs now can be turned OFF by zigbee2mqtt config (needs to modifyed file zStackAdapter.js)
+
+### 2021-02-11
+
+- SDK 4.40.00.44
+
+### 2020-09-21
+
+- Initial release.
+- SDK 4.20.01.04
+- DIO5 and DIO6 controls RF switch
+- DC/DC converter enabled
+- SET_CCFG_MODE_CONF_XOSC_CAPARRAY_DELTA set to 0xFA
+- Built for CC2652P1F chip variant (not for CC1352P1F).
+- Default TX power: 20dBm. Power can be adjusted in zigbee2mqtt config (-20...20)
+- LEDs supported: Red (DIO7) - PA used, Green (DIO8) - PA not used
+- LEDs can't be turned OFF
