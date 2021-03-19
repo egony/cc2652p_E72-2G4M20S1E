@@ -54,7 +54,7 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 ### 2021-03-19
 
 - LEDs now shows some events - reboot, network startup, join, data recieved
-- LEDs now can be turned OFF by zigbee2mqtt config (needs modifyed file zStackAdapter.js)
+- LEDs now can be turned OFF by zigbee2mqtt config (require modifyed file zStackAdapter.js)
 
 ### 2021-02-11
 
