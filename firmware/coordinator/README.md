@@ -1,10 +1,10 @@
 # Zigbee Coordinator Firmware for Ebyte E72-2G4M20S1E module (cc2652p chip)
 
-## Firmware description:
+## Firmware description
 
 Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) patches for Z-Stack_3.x.0.
 
-### Changes from original firmware:
+### Changes from original firmware
 - DIO5 and DIO6 controls RF switch
 - DC/DC converter enabled
 - SET_CCFG_MODE_CONF_XOSC_CAPARRAY_DELTA set to 0xFA (from E79-900DM2005S datasheet, but without it oscilator settings not related to hardware)
