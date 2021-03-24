@@ -8,4 +8,4 @@
 # ZigBee stick v4
 
 ### Hardware and firmware development for v4 stick based on Ebyte E72-2G4M20S1E module (cc2652p chip)
-### Please, see [Wiki page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki) for details.
+### Please, see [Wiki page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Home-EN) for details.
