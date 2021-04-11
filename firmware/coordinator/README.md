@@ -59,7 +59,7 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 
 ### 2021-02-11
 
-- SDK 4.40.00.44
+- SDK 4.40.04.04
 
 ### 2020-09-21
 
