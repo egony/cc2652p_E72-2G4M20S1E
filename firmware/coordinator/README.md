@@ -43,7 +43,7 @@ Leds can be turned OFF by zigbee2mqtt config, but on March 2021 you need to modi
 ### Notes
 
 Coordinator backup from 2538/2652/1352 can be loaded back into another 2538/2652/1352, but into CLEAN (never used with zigbee2mqtt) chip only.
-You can clear chip with zigbee2mqtt script **scripts\zStackEraseAllNvMem.js**
+You can clear chip with zigbee2mqtt script **scripts/zStackEraseAllNvMem.js** (look about it on [Flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing))
 
 ### Sources
 
