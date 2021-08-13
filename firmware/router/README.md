@@ -21,7 +21,7 @@ After reflashing the router will automatically pair.
 
 ### Facrory reset
 - To factory reset single press the any button on your device (except reset button of course).
-- If your device have no buttons, just reflash it again,
+- If your device have no buttons, just reflash it again.
 
 ### Sources
 
