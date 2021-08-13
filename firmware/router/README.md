@@ -13,7 +13,7 @@ Please read description of [original firmware](https://github.com/Koenkk/Z-Stack
 - LEDs are supported, but not used
 
 ### LEDs description
-- When stick restarted - both double blinking
+- When device restarted - both double blinking.
 - LEDs on DIO9 and DIO10 also supported in source code, but currently not used and perhaps never will be.
 
 ### Pairing
