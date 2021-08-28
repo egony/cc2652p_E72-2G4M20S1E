@@ -1,5 +1,7 @@
 # Zigbee Coordinator Firmware for Ebyte E72-2G4M20S1E module (cc2652p chip)
 
+# Warning!!! Because of zigbee2mqtt 1.21 have broken LED support, see fixing details below.
+
 ## Firmware description
 
 Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) patches for Z-Stack_3.x.0.
