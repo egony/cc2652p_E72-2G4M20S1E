@@ -1,21 +1,13 @@
 # Zigbee Coordinator Firmware for Ebyte E72-2G4M20S1E module (cc2652p chip)
 
-## Warning!!! Firmware 20210901 have some bugs in SDK, so recommended firmware is 20210319.
-
-## Warning!!! Because of zigbee2mqtt 1.21 have broken LED support, see fixing details below.
-
 ## Firmware description
 
-Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) patches for Z-Stack_3.x.0.
+Based on [Koenkk patches](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) for Z-Stack_3.x.0.
 
 ### Changes from original firmware
-- SDK 5.20.00.52
-- DIO5 and DIO6 controls RF switch
 - DC/DC converter enabled
-- SET_CCFG_MODE_CONF_XOSC_CAPARRAY_DELTA set to 0xFA (from E79-900DM2005S datasheet, but without it oscilator settings not related to hardware)
-- Built for CC2652P1F chip variant (not for CC1352P1F).
 - Default TX power: 20dBm.
-- LEDs are supported (z2m patch required)
+- Extended LEDs support
 
 ### TX power ajust
 
@@ -24,31 +16,17 @@ Power can be adjusted in zigbee2mqtt config:
     experimental:
       transmit_power: 5
 
-Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..5, 14..20
+Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..20
 
 ### LEDs description
 - Green (DIO8) turns ON when the network is running, blinking when joining enable
 - Red (DIO7) flashed when APS frame received
 - When stick restarted - both double blinking
-- LEDs on DIO9 and DIO10 also supported in source code, but currently not used and perhaps never will be.
 
 Leds can be turned OFF/ON by zigbee2mqtt config.
 
-Led support broken in zigbee2mqtt 1.21.0, so you should edit controller.js file like this:
-
-    nano /opt/zigbee2mqtt/node_modules/zigbee-herdsman/dist/controller/controller.js
-    
-![](https://github.com/egony/cc2652p_E72-2G4M20S1E/blob/master/images/z2m_fix.png)
-
-For firmware 2021-03-19 and earler find string
-
-    this.supportsLED_ = !zStack3x0 || (zStack3x0 && parseInt(this.version.revision) >= 20210430);
-    
-and change 2021 to 2020.
-
 ### Buttons description
-- Button 1 (BTN1) on DIO14 supported in source code, but currently not used and perhaps never will be.
-- Button 2 (BTN2, Flash) on DIO15 - used for bootloader activation (for firmware update)
+- Button on DIO15 - used for bootloader activation (for firmware update)
 - Reset button - you guess what it do.
 
 ### Notes
@@ -63,6 +41,13 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 ---
 
 ## Changelog (except KoenKK's patches update)
+
+### 2021-09-01
+
+- SDK 5_30_01_01
+- Built for CC1352P1F chip variant due to compiling for CC2652P1F chip variant produce same code now.
+- LEDs support code now copy-pasted from [JetHome patches](https://github.com/jethome-ru/zigbee-firmware/tree/master/ti/coordinator/cc2652) for code compatibility and easy maintenance.
+- LEDs on DIO9 and DIO10, Button 1 (BTN1) on DIO14 removed from source code.
 
 ### 2021-09-01
 
