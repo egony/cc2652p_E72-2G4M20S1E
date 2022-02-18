@@ -42,7 +42,7 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 
 ## Changelog (except KoenKK's patches update)
 
-### 2021-09-01
+### 2022-02-17
 
 - SDK 5_30_01_01
 - Built for CC1352P1F chip variant due to compiling for CC2652P1F chip variant produce same code now.
