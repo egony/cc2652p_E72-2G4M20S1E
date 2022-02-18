@@ -26,7 +26,7 @@ Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..20
 Leds can be turned OFF/ON by zigbee2mqtt config.
 
 ### Buttons description
-- Button on DIO15 - used for bootloader activation (for firmware update)
+- Flash button on DIO15 used for bootloader activation (for firmware update)
 - Reset button - you guess what it do.
 
 ### Notes
@@ -40,7 +40,7 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 
 ---
 
-## Changelog (except KoenKK's patches update)
+## Changelog
 
 ### 2022-02-17
 
