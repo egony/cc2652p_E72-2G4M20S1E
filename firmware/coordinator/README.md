@@ -2,7 +2,7 @@
 
 ## Firmware description
 
-Based on [Koenkk patches](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) for Z-Stack_3.x.0.
+Based on [Koenkk 20220103 patches](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) for Z-Stack_3.x.0.
 
 ### Changes from original firmware
 - DC/DC converter enabled
@@ -44,7 +44,6 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 
 ### 2022-02-17
 
-- SDK 5_30_01_01
 - Built for CC1352P1F chip variant due to compiling for CC2652P1F chip variant produce same code now.
 - LEDs support code now copy-pasted from [JetHome patches](https://github.com/jethome-ru/zigbee-firmware/tree/master/ti/coordinator/cc2652) for code compatibility and easy maintenance.
 - LEDs on DIO9 and DIO10, Button 1 (BTN1) on DIO14 removed from source code.
