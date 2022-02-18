@@ -31,12 +31,7 @@ Leds can be turned OFF/ON by zigbee2mqtt config.
 
 ### Notes
 
-Coordinator backup from 2538/2652/1352 can be loaded back into another 2538/2652/1352, but into CLEAN (never used with zigbee2mqtt) chip only.
-You can clear chip with zigbee2mqtt script **scripts/zStackEraseAllNvMem.js** (look about it on [Flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing))
-
-### Sources
-
-As I know, sharing source codes prohibited by TI, so there is no sources here. And I can't made patches because they will include code. But you now what to do ;)
+Strongly recommended to clear the memory after flashing (look about it on [Flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing))
 
 ---
 
