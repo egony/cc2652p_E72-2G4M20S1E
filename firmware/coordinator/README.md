@@ -31,7 +31,7 @@ Leds can be turned OFF/ON by zigbee2mqtt config.
 
 ### Notes
 
-Strongly recommended to clear the memory after flashing (look about it on [Flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing))
+Strongly recommended to clear the memory after flashing (look about it on [Flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing)).
 
 ---
 
