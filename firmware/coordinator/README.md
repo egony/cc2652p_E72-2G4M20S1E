@@ -2,7 +2,7 @@
 
 ## Firmware description
 
-Based on [Koenkk 20220103 patches](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) for Z-Stack_3.x.0.
+Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) and [JetHome](https://github.com/jethome-ru/zigbee-firmware/tree/master/ti/coordinator/cc2652) patches for Z-Stack_3.x.0.
 
 ### Changes from original firmware
 - DC/DC converter enabled
@@ -36,6 +36,10 @@ Strongly recommended to clear the memory after flashing (look about it on [Flash
 ---
 
 ## Changelog
+
+### 2022-03-01
+
+- SDK 5.40.00.40
 
 ### 2022-02-17
 
