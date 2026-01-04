@@ -8,7 +8,7 @@ Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordin
 - Default TX power: 20dBm.
 - Extended LEDs support
 - DC/DC and VDDR enabled for high power TX
-- HF XOSC CAPARRAY disabled (not needed for this module)
+- HF XOSC CAPARRAY enabled
 
 ### TX power ajust
 
