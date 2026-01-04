@@ -38,12 +38,13 @@ Strongly recommended to clear the memory after flashing (look about it on [Flash
 
 ## Changelog
 
-### 2026-01-03
+### 2026-01-05
 
 - SDK 8.32.00.07
 - Green LED mode changed to OFF when joining disabled
 - DCDC and VDDR enabled
 - HF XOSC CAPARRAY disabled
+- SET_CCFG_MODE_CONF_XOSC_CAPARRAY_DELTA set to 0xFA
   
 ### 2022-03-01
 
