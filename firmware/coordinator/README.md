@@ -34,6 +34,10 @@ Leds can be turned OFF/ON by zigbee2mqtt config.
 
 Strongly recommended to clear the memory after flashing (look about it on [Flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing)).
 
+### Sources
+
+Sources you can download [here](https://github.com/egony/egony.github.io/blob/master/Devices/Misc/znp_TI_sdk_8_32_00_07_20260101.zip). Please let me know about any issues.
+
 ---
 
 ## Changelog
