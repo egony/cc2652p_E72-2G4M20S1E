@@ -14,7 +14,7 @@ Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordin
 
 Power can be adjusted in zigbee2mqtt config:
 
-    experimental:
+    advanced:
       transmit_power: 5
 
 Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..20
@@ -24,7 +24,10 @@ Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..20
 - Red (DIO7) flashed when APS frame received
 - When stick restarted - both double blinking (depends on zigbee-heardsman status and **disable_led** configuration)
 
-Leds can be turned OFF/ON by zigbee2mqtt config.
+Leds can be turned OFF/ON by zigbee2mqtt config:
+
+    advanced:
+      disable_led: true
 
 ### Buttons description
 - Flash button on DIO15 used for bootloader activation (for firmware update)
